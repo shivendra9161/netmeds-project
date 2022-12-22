@@ -1,0 +1,216 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  a:link {
+  
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .navbar {
+    width: 100%;
+    background-color: rgb(50, 174, 177);
+    display: flex;
+    padding: 35px 80px;
+  }
+  .flex {
+    display: flex;
+  }
+  .center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .navbar1 {
+    width: 20%;
+  }
+  .navbar2 {
+    width: 50%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .navbar3 {
+    width: 25%;
+    color: #fff;
+    justify-content: space-around;
+  }
+  .navbar3 > p > i {
+    font-weight: bold;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+  .navbar2 > select {
+    width: 20%;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+  }
+  .navbar2 > input {
+    width: 75%;
+    height: 50px;
+    border: 0px;
+  }
+  
+  .navbar-section-2 {
+    background-color: rgb(50, 174, 177);
+    justify-content: space-around;
+    padding: 0px 150px 15px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .navbar-section-2 div > img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .category {
+    justify-content: space-around;
+    padding: 10px 150px 0px;
+    font-size: 14px;
+  }
+  
+  .slider{
+    margin: 10px;
+  }
+  
+  #trends {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 50px;
+  }
+  #trends > section > div img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  #trends > span {
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+    cursor: pointer;
+    z-index: 1;
+    margin: 0px -20px;
+    width: 30px;
+    height: 30px;
+  }
+  #trends > span:nth-of-type(2) {
+    left: 97%;
+    text-align: right;
+  }
+  #trends > section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+  }
+  #trends > section::-webkit-scrollbar {
+    visibility: hidden;
+  }
+  #trends > section > div {
+    min-width: 33.33%;
+    height: auto;
+    position: relative;
+    left: 0;
+    color: black;
+    transition: 0.5s;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #shop {
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 0px;
+   
+  }
+  #shop > div{
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 18%;
+  }
+  #shop > div > img{
+    padding: 10px;
+    font-weight: 500;
+   
+  }
+  #shop > div > p {
+    padding: 10px;
+    font-weight: 500;
+   
+   
+  
+  }
+  #shop> div > p+p{
+    padding: 10px;
+    font-weight: 500;
+    color: green;
+   
+  
+  }
+  
+  .explore {
+    justify-content: space-around;
+  }
+  #beauty {
+   
+    background: linear-gradient(
+      to bottom,
+      /*#ffffff 0%,
+      #ffffff 50%,*/ rgb(239, 66, 129) 70%,
+      #fff 30%
+    );
+    margin: 70px 0px;
+  }
+  #beauty> div > h3 {
+    padding: 30px;
+    color: #fff;
+  }
+  .explore > div {
+    text-align: center;
+    font-weight: 500;
+    margin: 10px;
+  }
+  .explore > div > img {
+    width: 250px;
+    border-radius: 10px;
+  }
+  #bestbeauty {
+    background: linear-gradient(
+      to bottom,
+      /*#ffffff 0%,
+      #ffffff 50%,*/ rgb(138, 143, 149) 70%,
+      #fff 30%
+    ) !important;
+    margin: 70px 0px;
+  }
+  #bestbeauty > div > h3 {
+    padding: 30px;
+    color: #fff;
+  }
+  #desc {
+    font-size: small;
+    margin: 0px 30px;
+  }
+  .category-div > span {
+    color: green;
+    font-weight: 500;
+   
+  }
+  #box > div > ul > a {
+    line-height: 30px;
+  }
